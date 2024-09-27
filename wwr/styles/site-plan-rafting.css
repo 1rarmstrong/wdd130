@@ -6,25 +6,25 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #a9cfd0   ;
-  --secondary-color: #24657a ;
-  --accent1-color: #b69035;
-  --accent2-color: #94392c;
+  --primary-color: #77E6F2   ;
+  --secondary-color: #D2D904 ;
+  --accent1-color: #F2AE2E;
+  --accent2-color: #F22929;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "IM Fell French Canon";
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --headline-color-on-white: #BF4B21;  /* headlines on a white background */ 
+  --headline-color-on-color: #396E94; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #3f2638; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #1a6092; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #F2AE2E  ;
+  --nav-link-color: #F2AE2E;
+  --nav-background-color: #396E94;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #396E94;
+  --nav-hover-background-color: #F2AE2E;
 }
 
 
