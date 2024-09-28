@@ -2,26 +2,26 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #77E6F2   ;
-  --secondary-color: #D2D904 ;
+  --primary-color: #396E94   ;
+  --secondary-color: #F2AE2E ;
   --accent1-color: #F2AE2E;
-  --accent2-color: #F22929;
+  --accent2-color: #396E94;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Neuton", Verdana, Arial;
+  --paragraph-font: "Nunito Sans", Garamond, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #BF4B21;  /* headlines on a white background */ 
-  --headline-color-on-color: #396E94; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #3f2638; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #1a6092; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #F2AE2E  ;
-  --nav-link-color: #F2AE2E;
+  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-color: #FFFFFF; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #FFFFFF;
   --nav-background-color: #396E94;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #F2AE2E;
