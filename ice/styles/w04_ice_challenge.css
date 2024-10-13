@@ -1,0 +1,16 @@
+body {
+    background-color: #5CA1D7;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    color: white;
+}
+body h1 {
+    font-weight: bold;
+}
+.initialQuote {
+    line-height: 500px;
+}
+.bold {
+    font-weight: bold;
+}
