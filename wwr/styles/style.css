@@ -1,10 +1,24 @@
+/* Continue at 03 of More CSS: Fonts and Spacing */
+@import url('https://fonts.googleapis.com/css2?family=Neuton&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    background-color: rgb(57,110,148);
+    color: white;
+    font-size: 22px;
+}
+.home-title, .msg h2 {
+    font-size: 2em;
+    font-family: "Neuton", Verdana, Arial;
+}
+.msg p{
+    font-size: 8em;
+}
+p {
+    font-family: "Nunito Sans", Garamond, sans-serif;
+}
 #content{
     max-width: 1600px;
     margin: 0 auto;
-}
-body {
-    background-color: rgb(57,110,148);
-    color: white
 }
 header {
     background-color: rgb(252,225,114);
@@ -44,6 +58,7 @@ nav a:hover {
 .book, .join {
     background-color: rgb(230,235,241);
     text-decoration: none;
+    font-size: 18px;
 }
 .book:hover, .join:hover {
     background-color: rgb(252,225,114);
@@ -59,6 +74,7 @@ nav a:hover {
 .msg {
     background-color: rgb(252,225,114);
     color: rgb(19,66,103);
+    line-height: 1.5em;
 }
 footer {
     background-color: rgb(252,225,114);
