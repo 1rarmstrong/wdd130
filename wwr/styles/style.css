@@ -4,8 +4,8 @@
   /* change the values below to your colors from your palette */
   --primary-color: #396E94;
   --secondary-color: #F2AE2E;
-  --accent1-color: #F2AE2E;
-  --accent2-color: #396E94;
+  --accent1-color: #f9c35f;
+  --accent2-color: #5b94bd;
   --accent3-color: black;
   --accent4-color: white;
 
@@ -24,7 +24,7 @@
   --nav-hover-link-color: white;
   --nav-hover-background-color: #F2AE2E;
 }
-
+/* ------------------------Home Page ------------------------------------- */
 body {
     background-color: var(--accent4-color);
     font-family: var(--paragraph-font);
@@ -279,4 +279,95 @@ footer a:hover {
     footer {
         margin-top: 25px;
     }
+}
+/* ------------------------------------------------Page 2-------------------------------------------------------------- */
+
+.dates-available{
+    justify-self: center;
+    font-size: 1.5em;
+}
+
+.grid-container-1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 100px;
+    padding: 20px;
+    column-gap: 20px;
+    border: 10px solid var(--accent3-color); 
+}
+
+.grid-container-2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 100px;
+    padding: 20px;
+    column-gap: 20px;
+    border: 10px solid var(--accent3-color); 
+}
+
+.grid-container-3{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 100px;
+    padding: 20px;
+    column-gap: 20px;
+    border: 10px solid var(--accent3-color); 
+}
+
+.grid-container-4{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: center;
+    align-items: end;
+    margin-bottom: 100px;
+    padding: 20px;
+    column-gap: 20px;
+    border: 10px solid var(--accent3-color); 
+}
+
+.April p{
+    text-align: center;
+}
+
+.days{
+    grid-row: 2/3;
+}
+
+.April{
+    background-color: var(--accent2-color);
+}
+
+.May{
+    background-color: var(--accent2-color);
+}
+
+.June{
+    background-color: var(--accent1-color);
+}
+
+.July{
+    background-color: var(--accent1-color);
+}
+
+.August{
+    background-color: var(--accent1-color);
+}
+
+.September{
+    background-color: var(--accent1-color);
+}
+
+.days{
+    
 }
