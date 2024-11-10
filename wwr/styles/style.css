@@ -2,10 +2,10 @@
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94;
-  --secondary-color: #F2AE2E;
-  --accent1-color: #f9c35f;
-  --accent2-color: #5b94bd;
+  --primary-color: #1F4469;
+  --secondary-color: #FDCC2D;
+  --accent1-color: #f8da75;
+  --accent2-color: #244624;
   --accent3-color: black;
   --accent4-color: white;
 
@@ -14,15 +14,15 @@
   --paragraph-font: "Nunito Sans", Garamond, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
-  --headline-color-on-color: #FFFFFF; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #FFFFFF; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #396E94  ;
-  --nav-link-color: #FFFFFF;
-  --nav-background-color: #396E94;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #F2AE2E;
+  --headline-color-on-white: var(--accent2-color);  /* headlines on a white background */ 
+  --headline-color-on-color: var(--accent1-color); /* headlines on a colored background */ 
+  --paragraph-color-on-white: var(--accent3-color); /* paragraph text on a white background */ 
+  --paragraph-color-on-color: var(--accent4-color); /* paragraph text on a colored background */ 
+  --paragraph-background-color: var(--primary-color)  ;
+  --nav-link-color: var(--accent4-color);
+  --nav-background-color: var(--primary-color);
+  --nav-hover-link-color: var(--primary-color);
+  --nav-hover-background-color: var(--secondary-color);
 }
 /* ------------------------Home Page ------------------------------------- */
 body {
@@ -44,7 +44,7 @@ h2 {
 }
 
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--nav-background-color);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -75,7 +75,7 @@ nav a {
 }
 nav a:hover {
     color: var(--nav-hover-link-color);
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 #hero {
@@ -87,6 +87,7 @@ nav a:hover {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
+    background-color: var(--primary-color);
 }
 #hero-msg {
     grid-column: 2/3;
@@ -117,7 +118,7 @@ h4 {
 }
 
 .book, .join {
-    background-color: var(--nav-background-color);
+    background-color: var(--nav-hover-background-color);
     color: var(--accent3-color);
     text-decoration: none;
     font-size: 18px;
@@ -127,8 +128,9 @@ h4 {
 }
 
 .book:hover, .join:hover {
-    background-color: var(--nav-hover-background-color);
-    color: var(--accent3-color);
+    background-color: var(--accent2-color);
+    color: var(--accent4-color);
+    border: 2px solid var(--accent4-color);
 }
 
 .home-grid {
@@ -193,14 +195,14 @@ main section img {
 }
 
 .msg {
-    background-color: var(--secondary-color);
+    background-color: var(--paragraph-background-color);
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
     box-shadow: 5px 5px 10px var(--accent3-color);
 }
 .msg h2 {
-    color: var(--accent3-color);
+    color: var(--accent1-color);
 }
 .msg p{
     color: var(--paragraph-color-on-color);
@@ -209,8 +211,8 @@ main section img {
 }
 
 footer {
-    background-color: var(--accent1-color);
-    color: var(--accent3-color);
+    background-color: var(--nav-background-color);
+    color: var(--accent4-color);
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
