@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 :root {
     --main-color: darkblue;
 }
@@ -23,6 +29,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -30,16 +37,22 @@ p {
 }
 
 main {
-    max-width: 840px;
+    max-width: 450px;
 }
 
 aside {
     width: 600px;
     margin: 0 auto;
-    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 5px;
     background-color: var(--main-color);
     color: white;
+    position: relative;
+    top: 5px;
+    left: 150px;
+}
+
+aside h2 {
+    position: absolute;
 }
 
 aside img {
@@ -51,4 +64,14 @@ footer {
     margin-top: 5px;
     border-top: 2px solid var(--main-color);
     text-align: center;
+}
+
+/* Class Selectors */
+
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgray;
+    color: darkblue;
 }
