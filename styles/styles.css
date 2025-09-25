@@ -8,19 +8,35 @@
     --main-color: darkblue;
 }
 
+header, footer, .grid {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 40%;
+}
+
 nav {
     background-color: var(--main-color);
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+
 }
 
 h1 {
     color: var(--main-color);
+    border-bottom: solid 2px var(--main-color);
 }
 
 main img {
@@ -38,17 +54,21 @@ p {
 
 main {
     max-width: 450px;
+    grid-column: 2/3;
+    margin: 1rem;
 }
 
 aside {
-    width: 600px;
+    width: 20rem;
+    grid-column: 1/2;
+    grid-row: 1/2;
     margin: 0 auto;
     padding: 5px;
     background-color: var(--main-color);
     color: white;
     position: relative;
     top: 5px;
-    left: 150px;
+    left: 15px;
 }
 
 aside h2 {
