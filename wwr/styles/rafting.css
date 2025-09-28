@@ -168,7 +168,11 @@ footer nav {
     background-color: var(--accent-color2);
 }
 
-.adventure img {
+figure {
+    text-align: center;
+}
+
+.adventure figure img {
     width: 150px;
     height: auto;
     margin: 5px;
