@@ -4,32 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+    <title>Poll-form</title>
 </head>
 
 <body>
     <header>
-
+        <h1>Poll Form</h1>
+        <p>Please fill out the form below</p>
     </header>
     <main>
         <form>
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name:</label>"
-                <input type="text" name="fullname" id="fullname">
-                <label for="useremail">Email:</label>
-                <input type="email" name="useremail" id="useremail">
+                <div class="form-item column2">
+                    <label for="fullname">Full Name:</label>"
+                    <input type="text" name="fullname" id="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" name="useremail" id="useremail">
+                </div>
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <label for="browser">What is your favorite browswer?</label>
-                <select name="browser" id="browser">
-                    <option value="Answer1">Chrome</option>
-                    <option value="Answer2">Bing</option>
-                    <option value="Answer3">Edge.</option>
-                </select>
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" name="pet" id="pet">
+                <div class="form-item column1">
+                    <label for="browser">What is your favorite browswer?</label>
+                    <select name="browser" id="browser">
+                        <option value="Answer1">Chrome</option>
+                        <option value="Answer2">Bing</option>
+                        <option value="Answer3">Edge.</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" name="pet" id="pet">
+                </div>
                 <label for="feedback">List the places you have lived</label>
                 <textarea name="feedback" id="feedback" rows="3" placeholder="Meridian, Idaho"></textarea>
             </fieldset>
