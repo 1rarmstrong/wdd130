@@ -181,3 +181,64 @@ figure {
 footer nav a {
     padding: 10px;
 }
+
+/* Below this part I'll put the contact page */
+
+.contact-page {
+    width: 840px;
+    margin: 0 auto;
+}
+
+.contact {
+    position: inherit;
+}
+.contact-info {
+    text-align: center;
+}
+
+.middle {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+}
+
+iframe {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 100%;
+
+}
+
+form {
+    grid-column: 2/3;
+    width: 80%;
+    padding: 10px;
+    grid-row: 1/3;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: var(--accent-color2);
+}
+
+img {
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+
+
+button {
+    width: 100%;
+}
