@@ -26,13 +26,13 @@ main {
     border: solid 10px lightgray;
 }
 
-label, input, select, option {
+label, input, select, option, textarea {
     display: block;
     margin: 10px 0;
     text-align: left;
 }
 
-input, select {
+input, select, textarea {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
